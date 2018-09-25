@@ -6,10 +6,9 @@ Goal: To take an image of a handwritten single digit, and determine what that di
 Metric: This competition is evaluated on the categorization accuracy of your predictions
 
 Submission File Format: The file should contain a header and have the following format:
-
   
-  ImageId, Label
-  1, 0
-  2, 0
-  3, 0
-  etc.
+    ImageId, Label 
+    1, 0
+    2, 0
+    3, 0
+    etc.
