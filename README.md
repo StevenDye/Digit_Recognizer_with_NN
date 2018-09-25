@@ -16,4 +16,4 @@ Submission File Format: The file should contain a header and have the following 
 ## Input Data
 The training and testing data can be downloaded using the following line of code:
 
-git clone https://github.com/lisa-lab/DeepLearningTutorials.git
+    git clone https://github.com/lisa-lab/DeepLearningTutorials.git
