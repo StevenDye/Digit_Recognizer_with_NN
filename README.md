@@ -1,5 +1,5 @@
 # Digit Recognizer with a Neural Network
-A neural network to analyze digits from the MNIST dataset
+A neural network to analyze digits from the MNIST dataset.
 
 Goal: To take an image of a handwritten single digit, and determine what that digit is For every ImageId in the test set, you should predict the correct label.
 
