@@ -11,13 +11,6 @@ num_classes = 10
 def data_prep(raw):
 	out_y = keras.utils.to_categorical(raw.label, num_classes)
 
-	# raw.label looks like this: 	0		1
-	#								1		0
-	#								2		1
-	#										..
-	#								41998	6
-	#								41999	9
-
 	num_images = raw.shape[0] # num_images is 42000
 	x_as_array = raw.values[:,1:] # Gives data as Numpy array. It's a big array
 	x_shaped_array = x_as_array.reshape(num_images, img_rows, img_cols, 1) # reshape to 4D array
